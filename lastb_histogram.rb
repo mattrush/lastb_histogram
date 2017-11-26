@@ -60,7 +60,7 @@ freq_ip.reverse!
 # collect hit times for each unique ipv4 into each relation's 'hits' array
 c = 1
 freq_ip.each do |f_ip, f_count|
-  puts "[*][correlating hits from #{f_ip}][#{c}/#{freq_ip.length}]"
+  puts "[*][corelating hits from #{f_ip}][#{c}/#{freq_ip.length}]"
   c += 1
 
   hits = Array.new
